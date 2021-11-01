@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#like {
+    padding: 0;
+    border: none;
+    border-radius: 15%;
+    background: lightcyan;
+    padding: 0.33em;
+}
+
+.my-stylish-footer {
+    background-color:azure;
+    height: 10%;
+    padding: top 0.33em;
+}
+
+.date {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+    float: right;
+}
