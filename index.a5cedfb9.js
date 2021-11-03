@@ -1,0 +1,2 @@
+!function(){const e=document.querySelector("#like"),t=document.querySelector("#like-counter");e.addEventListener("click",(()=>{let n;e.classList.contains("unliked")?(e.classList=["liked"],n="1"):(e.classList=["unliked"],n=null),e.style.color=undefined,e.style.backgroundColor=undefined,t.textContent=n}))}(),function(){const e=document.querySelector("#current-date");setInterval((()=>e.innerHTML=(new Date).toLocaleString()),1e3)}();
+//# sourceMappingURL=index.a5cedfb9.js.map
