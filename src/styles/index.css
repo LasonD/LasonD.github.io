@@ -30,6 +30,17 @@ footer {
     border-radius: 1%;
 }
 
+.my-info {
+    margin: 5em 12em;
+    padding: 1em;
+    background-color: #f0f0f0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.technologies-grid {
+    display: flex;
+}
+
 .footer-links {
     display: flex;
     justify-content: space-evenly;
