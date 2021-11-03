@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title>My photo page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>My project page</title>
+  </head>
+  <body>
     <main class="main">
-        <image src="./img/me.jpg"></image>
+      <image src="./images/programmer.png" />
+      <div>
+        I am just a dev
+        <button id="like" class="unliked">&hearts;</button>
+        <sup id="like-counter"></sup>
+      </div>
     </main>
-    <div>I am just a dev <button id="like">&hearts;</button></div>
 
     <footer>
-        <time id="current-date"></time>
+      <div class="footer-links">
+        <a href="#">My bio</a>
+        <a href="https://github.com/LasonD">My GitHub account</a>
+        <a href="https://github.com/LasonD/LasonD.github.io">My repository</a>
+      </div>
+
+      <time id="current-date"></time>
     </footer>
 
     <script src="./scripts/index.js"></script>
-</body>
+  </body>
 </html>
